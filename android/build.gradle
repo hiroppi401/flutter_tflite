@@ -33,7 +33,7 @@ android {
     }
 
     dependencies {
-        compile 'org.tensorflow:tensorflow-lite:+'
-        compile 'org.tensorflow:tensorflow-lite-gpu:+'
+        implement('org.tensorflow:tensorflow-lite:+')
+        implement('org.tensorflow:tensorflow-lite-gpu:+')
     }
 }
